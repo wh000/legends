@@ -1,0 +1,99 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="resources/css/index.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="resources/javascript/index.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Content Page</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href='#'>Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+
+                <li>
+                    <div class='menu-item' chp-no="1" chp-path="../../chapter1.html">Chapter 1</div>
+                </li>
+                <li>
+                    <div class='menu-item' chp-no="2" chp-path="../../chapter2.html">Chapter 2</div>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div id="right-col">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                <i class="glyphicon glyphicon-align-left"></i>
+                Toggle Sidebar
+            </button>
+
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Font Size
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                            <div class='font-size-item' data-font-size="0.6">0.6x</div>
+                    </li>
+                    <li>
+                            <div class='font-size-item' data-font-size="0.7">0.7x</div>
+                    </li>
+                    <li>
+                            <div class='font-size-item' data-font-size="0.8">0.8x</div>
+                    </li>
+                    <li>
+                            <div class='font-size-item' data-font-size="0.9">0.9x</div>
+                    </li>
+                    <li>
+                            <div class='font-size-item active' data-font-size="1.0">1.0x</div>
+                    </li>
+                    <li>
+                            <div class='font-size-item' data-font-size="1.1">1.1x</div>
+                    </li>
+                    <li>
+                            <div class='font-size-item' data-font-size="1.2">1.2x</div>
+                    </li>
+                    <li>
+                            <div class='font-size-item' data-font-size="1.4">1.4x</div>
+                    </li>
+                    <li>
+                            <div class='font-size-item' data-font-size="1.5">1.5x</div>
+                    </li>
+                    <li>
+                            <div class='font-size-item' data-font-size="1.6">1.6x</div>
+                    </li>
+                </ul>
+            </div>
+
+         
+
+            <button type="button" class="btn reading-mode-btn">Night Mode</button>
+
+            
+            <div class="content"></div>
+            <div class=bottom-page-nav>
+                <button type="button" class="btn bottom-page-nav-btn bottom-page-nav-backward"> Backward</button>
+                <button type="button" class="btn bottom-page-nav-btn btn-forward bottom-page-nav-forward"> Forward</button>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>

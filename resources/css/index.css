@@ -1,0 +1,158 @@
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar{
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+#sidebar.active{
+    margin-left: -250px;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background: #fafafa;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li .menu-item {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li .menu-item:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul ul .menu-item {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+
+#sidebarCollapse{
+    margin-left: 5px;
+}
+
+.content{
+    margin-left: 15px;
+}
+
+.content {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    
+}
+
+.bottom-page-nav-btn{
+    margin-right: 50px;
+    display: -webkit-inline-flex
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+    .wrapper{
+        width: 600px !important;
+    }
+    .content {
+        width :100% !important;
+    }
+}
+
+.dropdown{
+    margin-left: 5px;
+}
+
+.font-size-item:hover{
+    background-color: #d3dbe0; 
+    transition: all 0.3s;
+}
+
+.font-size-item.active {
+    background-color: #d3dbe0;
+}
+
+.reading-mode-btn{
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #1e3038;
+    color: #fafafa;
+}
+
+.bottom-page-nav{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
