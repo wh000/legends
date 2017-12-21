@@ -1,8 +1,8 @@
 var pg_count = 0;
 
 var links = {
-    1: "../../legends/chapter1.html",
-    2: "../../legends/chapter2.html"
+    1: "../../../legends/chapter1.html",
+    2: "../../../legends/chapter2.html"
 };
 
 $(document).ready(function () {
