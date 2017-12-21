@@ -1,8 +1,8 @@
 var pg_count = 0;
 
 var links = {
-    1: "../../chapter1.html",
-    2: "../../chapter2.html"
+    1: "../../legends/chapter1.html",
+    2: "../../legends/chapter2.html"
 };
 
 $(document).ready(function () {
@@ -39,6 +39,7 @@ $(document).ready(function () {
 
     $(".bottom-page-nav-forward").on('click', function () {
         console.log("forwards");
+        console.log(pg_count);
         if (pg_count <= 1){
             pg_count += 1;
             $('.content').load(links[pg_count]);
