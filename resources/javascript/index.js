@@ -34,7 +34,7 @@ $(document).ready(function () {
                 $(this).removeClass('night-mode');
             });
         }
-        pg_count = $(this).attr("chp-no");
+        pg_count = parseInt($(this).attr("chp-no"));
     });
 
     $('.font-size-item').on('click', function () {
