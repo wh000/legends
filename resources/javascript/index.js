@@ -5,7 +5,8 @@ var reading_mode = 0;
 
 var links = {
     1: "../../../legends/chapter1.html",
-    2: "../../../legends/chapter2.html"
+    2: "../../../legends/chapter2.html",
+    3: "../../../legends/chapter3.html"
 };
 
 $(document).ready(function () {
