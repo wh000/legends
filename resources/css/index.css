@@ -3,6 +3,10 @@
     align-items: stretch;
 }
 
+#right-col{
+    min-height: fit-content !important;
+}
+
 #sidebar{
     min-width: 250px;
     max-width: 250px;
