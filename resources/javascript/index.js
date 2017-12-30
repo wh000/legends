@@ -50,23 +50,25 @@ $(document).ready(function () {
     });
 
     $(".bottom-page-nav-backward").on('click', function () {
-        console.log("backwards");
+        
         if (pg_count > 1){
             pg_count -= 1;
             $('.content').load(links[pg_count]);
 
-            window.scrollTo(0, 0);
+            $(window).scrollTop(0);
+            console.log("scroll backwards");
         }
     });
 
     $(".bottom-page-nav-forward").on('click', function () {
-        console.log("forwards");
+        
         console.log(pg_count);
         if (pg_count < 3){
             pg_count += 1;
             $('.content').load(links[pg_count]);
 
-            window.scrollTo(0, 0);
+            $(window).scrollTop(0);
+            console.log("scroll forwards");
         }
     });
 
