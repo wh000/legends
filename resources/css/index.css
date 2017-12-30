@@ -3,9 +3,6 @@
     align-items: stretch;
 }
 
-#right-col{
-    min-height: fit-content !important;
-}
 
 #sidebar{
     min-width: 250px;
@@ -106,6 +103,7 @@ ul ul .menu-item {
 
 .content{
     margin-left: 15px;
+    min-height: fit-content !important;
 }
 
 .content {
