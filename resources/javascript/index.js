@@ -54,6 +54,8 @@ $(document).ready(function () {
         if (pg_count > 1){
             pg_count -= 1;
             $('.content').load(links[pg_count]);
+
+            window.scrollTo(0, 0);
         }
     });
 
@@ -63,6 +65,8 @@ $(document).ready(function () {
         if (pg_count < 3){
             pg_count += 1;
             $('.content').load(links[pg_count]);
+
+            window.scrollTo(0, 0);
         }
     });
 
